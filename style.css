@@ -61,17 +61,22 @@ box-sizing: border-box;
 
 .item {
     width: 100%;
+    min-width: 12.5%;
+    max-width: 12.5%;
     background-color: lightgray;
     opacity: 0.8;
     border: gray solid 1px;
     flex-grow: 1;
+    flex-shrink: 0;
+    min-width: 0;
+    flex-basis: 12.5%;
     text-align: center;
     align-items: center;
     /* center text */
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 1rem;
+    padding: 0.4rem;
 }
 
 .available {
